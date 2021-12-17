@@ -4,10 +4,10 @@
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
 
+ import './styles/index.scss';
+ 
 import {UswdsVue} from '../../uswds-vue/src/main.js';
 import VueGtag from "vue-gtag";
-
-import './styles/index.scss';
 
 export default ({
     Vue, // the version of Vue being used in the VuePress app
